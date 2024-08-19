@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/blood_donor_logo"
+            android:contentDescription="App Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Blood Donor and Finder"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/findDonorsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Find Donors"
+                    android:textColor="@color/button_text"
+                    android:background="@drawable/button_background"
+                    android:layout_marginBottom="12dp" />
+
+                <Button
+                    android:id="@+id/becomeDonorButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Become a Donor"
+                    android:textColor="@color/button_text"
+                    android:background="@drawable/button_background"
+                    android:layout_marginBottom="12dp" />
+
+                <Button
+                    android:id="@+id/findBloodBanksButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Find Blood Banks"
+                    android:textColor="@color/button_text"
+                    android:background="@drawable/button_background"
+                    android:layout_marginBottom="12dp" />
+
+                <Button
+                    android:id="@+id/addBloodBanksButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add Blood Banks"
+                    android:textColor="@color/button_text"
+                    android:background="@drawable/button_background" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60272502331",
+    "project_id": "bdonor-65da1",
+    "storage_bucket": "bdonor-65da1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60272502331:android:9cc481d4c1c0e492199e1e",
+        "android_client_info": {
+          "package_name": "com.z8ten.bdonor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvmoxf-QEzx6rWq1WUGQE5mf2v9CWIr6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
