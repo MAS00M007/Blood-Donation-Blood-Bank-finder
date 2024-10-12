@@ -59,10 +59,10 @@ public class addbloodbankActivity extends AppCompatActivity {
             return;
         }
 
-        // Convert blood types from comma-separated string to a list
+
         List<String> bloodTypes = Arrays.asList(bloodTypesInput.split("\\s*,\\s*"));
 
-        // Create a new blood bank object
+
         Map<String, Object> bloodBank = new HashMap<>();
         bloodBank.put("name", name);
         bloodBank.put("city", city);

@@ -10,4 +10,16 @@
         <item>O+</item>
         <item>O-</item>
     </string-array>
+    <string name="recent_requests">Recent Requests</string>
+    <string name="contact">Contact</string>
+    <string name="find_banks">Find Banks</string>
+    <string name="add_banks">Add Banks</string>
+    <string name="app_title">Blood Donor and Finder</string>
+    <string name="app_logo">App Logo</string>
+    <string name="find_donors">Find Donors</string>
+    <string name="become_donor">Become a Donor</string>
+    <string name="find_blood_banks">Find Blood Banks</string>
+    <string name="add_blood_banks">Add Blood Banks</string>
+    <string name="new_request">New Request</string>
+    <string name="add_blood_request">Add Blood Request</string>
 </resources>
